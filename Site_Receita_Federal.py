@@ -29,8 +29,8 @@ navegador.get(url=link)
 sleep(1)
 #passo2
 navegador.maximize_window()
-navegador.find_element('xpath', '//*[@id="txtCPF"]').send_keys("05693833151")
-navegador.find_element('xpath', '//*[@id="txtDataNascimento"]').send_keys("24062003")
+navegador.find_element('xpath', '//*[@id="txtCPF"]').send_keys("0xxxxxxxxx")
+navegador.find_element('xpath', '//*[@id="txtDataNascimento"]').send_keys("xxxxxxxxxx")
 sleep(25)
 navegador.find_element('xpath', '//*[@id="id_submit"]').click()
 #\\\\\\\\\\\\\\\\\\\\\\\\\ Fazer um request da Pagina ////////////////////////////////
